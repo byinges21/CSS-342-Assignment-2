@@ -1,6 +1,5 @@
-<img width="504" alt="image" src="https://github.com/a-teaching-goose/CSS342A-2024-Summer/assets/252020/8926f9d9-e5a6-4257-bef1-248700c1f590">
 
-## (10pt) Movie Recommendation 
+##  Movie Recommendation 
 
 This task is to combine the matrix in task 1 and formula in task 3 to implement a primitive movie recommendation system. Make sure to finish task 1 and 3 completely before starting this task.
 
