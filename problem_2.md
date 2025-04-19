@@ -1,7 +1,7 @@
 <img width="403" alt="image" src="https://user-images.githubusercontent.com/252020/163451813-37c307f1-f9c9-4f9e-853b-dce85c450c7b.png">
 
 
-## (25pt) ArrayList
+##  ArrayList
 
 ### Abstract Data Type (ADT)
 
