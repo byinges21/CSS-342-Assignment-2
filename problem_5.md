@@ -1,6 +1,5 @@
-<img width="40%" alt="image" src="https://github.com/a-teaching-goose/CSS342A-2024-Summer/assets/252020/d58c71a0-e0f6-4c09-865a-7da14330232b">
 
-## (10pt) Compound Interest
+## Compound Interest
 This task uses the formula in task 3 to implement a compound interest calculator. Make sure to finish task 3 completely before starting this task.
 
 ### Disclaimer
@@ -22,7 +21,7 @@ In simple term, compound interest is about **a repeated small step produces acce
 
 So, let's learn this to stay on the positive side of it, and now.
 
-### The Task (10pt)
+### The Task
 
 - Complete a compound interest simulator. **Do not use any math library**. [Here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_5/million_dollar_idea.cpp#L23) is the code to write. There's details info in the TODOs, but the key requirement is the calculation is to be done using a [Formula](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_3/formula.hpp) object instead of writing the logic as code.
 - Add a unit test [here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/test/unit_test_task_5.cpp#L139) with your own way of reaching 1M using compound interest.
