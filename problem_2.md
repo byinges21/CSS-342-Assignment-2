@@ -18,7 +18,6 @@ For example, **List** is a very commonly used data type. Similar to array, a lis
 - Element can be removed from a List
 - Lists can be merged into each other
 
-And [here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_2/array_and_list.h#L8)'s an C++ interface that defines a List ADT.
 
 One thing to note: **There's no mentioning of the type of the element, and how data is stored in a List. This is up to specific implementation of a List to decide.**
 
