@@ -32,8 +32,6 @@ Each row represents what a user likes to which extent. For example, user 2 (row 
 This genre vs feature matrix looks like this:
 
 
-[Here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_4/movie_recommender.hpp#L21)'s how it's stored in the code.
-
 #### Featrue-movie Matrix
 
 Lastly, a set of movies is rated between 0 and 1 (0 being the least relevant, and 1 being the highest) with the features in the third matrix *C* as follows:
