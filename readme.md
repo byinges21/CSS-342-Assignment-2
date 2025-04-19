@@ -17,9 +17,9 @@
 
 There are **FIVE** problems to solve. 
 
-- [Problem 1](problem_1.md) (25pt)
-- [Problem 2](problem_2.md) (25pt)
-- [Problem 3](problem_3.md) (30pt)
-- [Problem 4](problem_4.md) (10pt)
-- [Problem 5](problem_5.md) (10pt)
+- [Problem 1](problem_1.md) 
+- [Problem 2](problem_2.md) 
+- [Problem 3](problem_3.md) 
+- [Problem 4](problem_4.md) 
+- [Problem 5](problem_5.md) 
 
