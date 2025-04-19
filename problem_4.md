@@ -16,8 +16,6 @@ The mathematical theory behind this task is called "collaborative filtering." We
   - Noir
 The rating is expressed in a matrix *A* (also called 'user-genre' in the code) such as:
 
-<img width="20%" alt="image" src="https://github.com/a-teaching-goose/CSS342A-2024-Summer/assets/252020/d06fd2f8-cd21-45a2-9c4d-2d556b3db5b4">
-
 Each row represents what a user likes to which extent. For example, user 2 (row 2) doesn't like comedy (rating of 1), but likes drama slightly more (4 vs 3) than documentary.
 
 #### Genre-feature Matrix
@@ -33,7 +31,6 @@ Each row represents what a user likes to which extent. For example, user 2 (row 
 
 This genre vs feature matrix looks like this:
 
-<img width="35%" alt="image" src="https://github.com/a-teaching-goose/CSS342A-2024-Summer/assets/252020/7f9cafbb-1f30-4b0a-9768-ccbf63ac2565">.
 
 [Here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_4/movie_recommender.hpp#L21)'s how it's stored in the code.
 
@@ -41,9 +38,6 @@ This genre vs feature matrix looks like this:
 
 Lastly, a set of movies is rated between 0 and 1 (0 being the least relevant, and 1 being the highest) with the features in the third matrix *C* as follows:
 
-<img width="35%" alt="image" src="https://github.com/a-teaching-goose/CSS342A-2024-Summer/assets/252020/d935a571-8fd8-4bd0-80cc-a5385d112a68">
-
-[Here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/test/unit_test_task_4.cpp#L12) is what this matrix looks like in the code (with different values).
 
 #### Movie Recommendation
 
@@ -79,8 +73,7 @@ recommendation matrix (D)
 8.43 9.30 9.01 9.28 10.79 
 ```
 
-The largest value is (zero-based) column 4, value of 10.79, which in turn selects movie 5 (index 4) "movie 5 - Seinfeld" from the movies vector as the recommendation pick, reflected also in the unit test [here](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/test/unit_test_task_4.cpp#L73):
-
+The largest value is (zero-based) column 4, value of 10.79, which in turn selects movie 5 (index 4) "movie 5 - Seinfeld" from the movies vector as the recommendation pick
 ```c++
 User user1("user 1, who loves comedy",
                {
@@ -93,8 +86,6 @@ User user1("user 1, who loves comedy",
     Movie actual = recommender.recommend(user1);
     ASSERT_EQ(movies[4], actual);
 ```
-
-Your task in the TODO section is to take matrix *D* (named [ranking](https://github.com/a-teaching-goose/2024-summer-342-hw-2/blob/main/src/task_4/movie_recommender.hpp#L61C23-L61C30)), and find out the index of the largest values, and return the movie at that index in the *movies* vector.
 
 ### Note
 - This task relies on code from task 1 and 3 to be completely finished.
